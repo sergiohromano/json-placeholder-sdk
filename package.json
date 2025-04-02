@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "JSONPlaceholder SDK",
   "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "npx tsc",
     "test": "jest"
@@ -19,7 +23,8 @@
     "javascript",
     "typescript"
   ],
-  "author": "Sergio Romano",
+  "author": "Sergio Romano <sergio.h.romano@gmail.com> (https://sergiohromano.rcodefs.com)",
+  "homepage": "https://github.com/sergiohromano/json-placeholder-sdk#readme",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.8.2"
