@@ -1,0 +1,27 @@
+{
+  "name": "@sergiohromano/json-placeholder-sdk",
+  "version": "1.0.0",
+  "description": "JSONPlaceholder SDK",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sergiohromano/json-placeholder-sdk.git"
+  },
+  "keywords": [
+    "json",
+    "sdk",
+    "jsonplaceholder",
+    "api",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Sergio Romano",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
