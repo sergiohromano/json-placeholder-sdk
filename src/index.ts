@@ -1,5 +1,1 @@
-export const helloWorld = () => {
-  return "Hello World!";
-};
-
-console.log(helloWorld());
+export { getPosts } from "./get-posts";
